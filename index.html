@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Web App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style>
+    *
+{
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+}
+.navbar
+
+{
+    max-height: 108px;
+}
+.logo img{
+    width: 130px;
+    height: auto;
+}
+
+.links ul{
+    display: inline-block;
+    list-style: none;
+}
+.links ul li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.links ul li a
+{
+    text-decoration: none;
+    list-style: none;
+    
+    color: black;
+    
+    font-size: 23px;
+    margin-bottom: 5px;
+    transition: 0.6s ease;
+}
+.links ul li a:hover
+{
+    
+    font-size: 29px;
+    
+}
+.image{
+    background-color: #efefef;
+    height: 100vh;
+    width: 100%;
+    
+}
+.image img{
+    width: 700px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 110px;
+    box-shadow: 0px 5px 10px 0px ;
+}
+.image h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.image{
+    background-color: #efefef;
+    
+}
+.image .col-md-4
+{
+    margin-top: 70px;
+    width: 358px;
+    height : 400px;
+
+    box-shadow: 0px 5px 25px 0px ;
+    border-radius: 71px;
+    margin-left: 260px;
+
+}
+.image .containor
+{
+    margin-top: 20px;
+}
+.form input
+{
+    margin: 10px;
+    height: 40px;
+    border-radius: 30px;
+}
+.form :placeholder-shown
+{
+    
+    width: 300px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    margin-left: 40px;
+    
+}
+.form :placeholder-shown
+{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.gameon
+{
+    width: 160px;
+    height: 62px;
+    border-radius: 31px;
+    font-size: 23px;
+    margin-left: 110px;
+    margin-top: 30px;
+    background: linear-gradient(90deg,rgb(197,103,52),rgb(221,164,134));
+    border: 1px solid white;
+    color: white;
+
+}
+.form :placeholder-shown :hover
+{
+    text-emphasis: none;
+}
+
+</style>
+</head>
+<body>
+    <section class="navbar">
+        <div class="logo">
+            <img src="https://lh3.googleusercontent.com/proxy/tKhzwIItCv2Wd5_nxyZyEekfzbsIWAmgu-UQaFmJBRWyekttpMG66MZ9SeVwNNE5w8HwYlXnT6Cp10mgJWqSl5SeahzT_c0" alt="">
+        </div>
+        <div class="links">
+            <ul>
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Classes Today</a></li>
+                <li><a href="#">Developors</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="image">
+        <div class="containor">
+            <div class="row">
+                
+                <div class="col-md-5">
+                    <img src="pexels-pixabay-207691.jpg" alt="classimage">
+                </div>
+                
+                <div class="col-md-4">
+
+                    <h1>Student Login Area</h1>
+
+                    <div class="form">
+                        <form action="">
+
+                            <input type="text" placeholder="Username" name="User">
+                            <input type="password" placeholder="Password" name="Pass">
+                        </form>
+                        <button class="gameon">Jump In</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+</body>
+</html>
